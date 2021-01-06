@@ -91,7 +91,7 @@ $this->load->view('include/Header');
 														<th>NO</th>
 														<th>NAMA INTANSI</th>
 														<th>JENIS</th>
-														<th>ALAMAT</th>
+														<th width="300">ALAMAT</th>
 														<th>EMAIL</th>
 														<th>TELP</th>
 														<th>HP</th>

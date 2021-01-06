@@ -30,7 +30,7 @@ public function save()
 {
 	$temparr=[];		
 	$data=$this->input->post();
-	$resultSaveFile=$this->im->saveInformasi($data);
+	$resultSaveFile=$this->im->saveItemModel($data);
 	$temparr[]=$resultSaveFile;									
 	echo json_encode($temparr);	
 }

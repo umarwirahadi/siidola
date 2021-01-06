@@ -32,9 +32,9 @@ $this->load->view('include/Header');
 									<div class="tab-content" id="myTabContent">
 										<div class="tab-pane fade show active" id="draft" role="tabpanel" aria-labelledby="draft-tab">
 											<?php 
-											$jenis_user 	= $this->session->userdata('jenis');
+											$jenis_user 	= $this->session->userdata('nama_intansi');
 
-											if($jenis_user=='DINAS KESEHATAN'){											
+											if($jenis_user=='PROGSI'){											
 											?>
 											<a class="btn btn-app" id="addInfo" data-toggle="modal" data-target=".addInfo">
 												<i class="fa fa-plus"></i> Tambah
