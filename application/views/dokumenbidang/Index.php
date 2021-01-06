@@ -9,7 +9,7 @@ $this->load->view('include/Header');
 			<div class="x_panel">
 
 				<div class="x_title">
-					<h2>Status Upload berkas bidang</h2>
+					<h2>Status Upload berkas bidang/seksi</h2>
 					<ul class="nav navbar-right panel_toolbox">
 						<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
 						</li>
@@ -127,7 +127,7 @@ $this->load->view('include/Header');
 									</select>
 								</div>
 								<div class="col-sm-2">
-									<label for="filter_puskesmas">Bidang</label>
+									<label for="filter_puskesmas">Bidang/Seksi</label>
 									<select name="filter_puskesmas" id="filter_puskesmas" class="form-control">
 										<option value="" disabled selected>Pilih</option>
 										<?php getBidang() ?>
@@ -154,7 +154,7 @@ $this->load->view('include/Header');
 												<th>NAMA DOKUMEN</th>
 												<th>PERIODE </th>
 												<th>TGL. UPLOAD </th>
-												<th>BIDANG</th>
+												<th>BIDANG/SEKSI</th>
 												<th>STATUS DOKUMEN</th>
 												<th>KET</th>
 												<th>AKSI</th>

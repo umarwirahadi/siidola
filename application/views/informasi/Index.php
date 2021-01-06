@@ -20,7 +20,6 @@ $this->load->view('include/Header');
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="card-box table-responsive">
-
 								<div class="x_content">
 									<ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
 										<li class="nav-item">
@@ -39,9 +38,6 @@ $this->load->view('include/Header');
 											?>
 											<a class="btn btn-app" id="addInfo" data-toggle="modal" data-target=".addInfo">
 												<i class="fa fa-plus"></i> Tambah
-											</a>
-											<a class="btn btn-app" id="addInfo" data-toggle="modal" data-target=".updateinfo">
-												<i class="fa fa-plus"></i> edit
 											</a>
 											<?php } ?>
 											<div class="table-responsive">

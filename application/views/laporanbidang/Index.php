@@ -57,7 +57,7 @@ $jenis_user 	= $this->session->userdata('jenis');
 									</select>
 								</div>
 								<div class="col-sm-3">
-									<label for="filter_status_dokumen">Bidang</label>
+									<label for="filter_status_dokumen">Bidang/Seksi</label>
 									<select name="filter_status_dokumen" id="filter_status_dokumen" class="form-control">
 										<option value="" disabled selected>Pilih</option>
 										<?php getBidang() ?>
@@ -108,7 +108,7 @@ $jenis_user 	= $this->session->userdata('jenis');
 											<thead>
 												<tr class="headings">
 													<th>NO</th>
-													<th>BIDANG</th>
+													<th>BIDANG/SEKSI</th>
 													<th>NAMA DOKUMEN</th>
 													<th>PERIODE </th>
 													<th>TGL. UPLOAD</th>

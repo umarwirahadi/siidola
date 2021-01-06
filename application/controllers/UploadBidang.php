@@ -17,7 +17,7 @@ class UploadBidang extends CI_Controller {
 		$data['isDatatable']=true;
 		$data['isSelect2']=true;
 		$data['title']='upload bidang';
-		$data['maintitle']='UPLOAD DOKUMEN BIDANG';
+		$data['maintitle']='UPLOAD DOKUMEN BIDANG/SEKSI';
 		$data['js']=base_url('assets/assetbidang.js');
 		$data['jenisDokumen']=$this->mjenis->getJenis();
 		$data['dokumen_upload_draft']=$this->upl->show();
