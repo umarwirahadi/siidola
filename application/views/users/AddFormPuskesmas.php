@@ -26,17 +26,19 @@
 						</div>
 					</div>
 					<div class="item form-group">
-						<label class="col-form-label col-md-3 col-sm-3 label-align" for="nama_intansi">Nama Instansi <span class="required">*</span>
+						<label class="col-form-label col-md-3 col-sm-3 label-align" for="nama_intansi">Puskesmas/Bidang/Seksi <span class="required">*</span>
 						</label>
 						<div class="col-md-9 ">
 							<input id="nama_intansi" class="form-control" type="text" name="nama_intansi" required>
 						</div>
 					</div>
 					<div class="item form-group">
-						<label class="col-form-label col-md-3 col-sm-3 label-align" for="alamat">Alamat instansi <span class="required">*</span>
+						<label class="col-form-label col-md-3 col-sm-3 label-align" for="alamat">Alamat <span class="required">*</span>
 						</label>
 						<div class="col-md-9 ">
-							<textarea name="alamat" id="alamat" cols="30" rows="3" class="form-control"></textarea>							
+							<textarea name="alamat" id="alamat" cols="30" rows="3" class="form-control">
+								
+							</textarea>							
 						</div>
 					</div>
 					<div class="item form-group">
