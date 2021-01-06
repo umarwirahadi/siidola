@@ -112,6 +112,20 @@ $this->load->view('include/Header');
 															<td>Selasa, xx November 2020</td>
 															<td></td>
 														</tr>
+														<tr>
+															<td>4</td>
+															<td>
+																<p>Penambahan fitur aplikasi :</p>
+																<ol>
+																	<li>Pemisahan tab dokumen diajukan dengan disetujui
+																	<li>perbaikan bug sistem</li>
+																	<li>data jenis dokumen bidang</li>
+																	<li>data user</li>
+																</ol>
+															</td>
+															<td>Rabu, 6 Januari 2021</td>
+															<td></td>
+														</tr>
 													</tbody>
 												</table>
 											</div>
